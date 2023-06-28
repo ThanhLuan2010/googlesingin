@@ -41,11 +41,10 @@ function App({ navigation }) {
       const userInfo = await GoogleSignin.signIn();
 
       if (userInfo?.idToken) {
-        dispatch(setUserInfo(userInfo.user));
+        dispatch(setUserInfo(userInfo));
         dispatch(setIsLoggedIn(true));
       }
     } catch (error) {
-      console.log("====error=====", error);
       if (error.code === statusCodes.SIGN_IN_CANCELLED) {
         // user cancelled the login flow
       } else if (error.code === statusCodes.IN_PROGRESS) {

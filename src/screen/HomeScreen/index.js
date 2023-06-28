@@ -1,4 +1,4 @@
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, ScrollView } from "react-native";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -27,7 +27,9 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1 }}>
       <View style={{ flex: 1 }}>
-        <Text>{JSON.stringify(userInfo.userInfo)}</Text>
+        <ScrollView>
+          <Text>{JSON.stringify(userInfo?.userInfo)}</Text>
+        </ScrollView>
       </View>
       <Button onPress={onLogout} title="Đăng xuất" />
     </View>
