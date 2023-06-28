@@ -1,16 +1,18 @@
-import React from 'react';
-import {Button, View} from 'react-native';
-import {
-  GoogleSignin,
-  GoogleSigninButton,
-  statusCodes,
-} from '@react-native-google-signin/google-signin';
+import React from "react";
+import { Provider } from "react-redux";
+import { persistStore } from "redux-persist";
+import { PersistGate } from "redux-persist/integration/react";
+import { store } from "./src/store";
+import RootNavigation from './src/navigation/rootNavigation'
+
 function App() {
-  const onLoginGoogle = async () => {};
+  let persistor = persistStore(store);
   return (
-    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
-      <GoogleSigninButton onPress={onLoginGoogle} />
-    </View>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <RootNavigation />
+      </PersistGate>
+    </Provider>
   );
 }
 

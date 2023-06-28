@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "GoogleSignin.app"
-               BlueprintName = "GoogleSignin"
-               ReferencedContainer = "container:GoogleSignin.xcodeproj">
+               BuildableName = "GoogleSign.app"
+               BlueprintName = "GoogleSign"
+               ReferencedContainer = "container:GoogleSign.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "GoogleSigninTests.xctest"
-               BlueprintName = "GoogleSigninTests"
-               ReferencedContainer = "container:GoogleSignin.xcodeproj">
+               BuildableName = "GoogleSignTests.xctest"
+               BlueprintName = "GoogleSignTests"
+               ReferencedContainer = "container:GoogleSign.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GoogleSignin.app"
-            BlueprintName = "GoogleSignin"
-            ReferencedContainer = "container:GoogleSignin.xcodeproj">
+            BuildableName = "GoogleSign.app"
+            BlueprintName = "GoogleSign"
+            ReferencedContainer = "container:GoogleSign.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GoogleSignin.app"
-            BlueprintName = "GoogleSignin"
-            ReferencedContainer = "container:GoogleSignin.xcodeproj">
+            BuildableName = "GoogleSign.app"
+            BlueprintName = "GoogleSign"
+            ReferencedContainer = "container:GoogleSign.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

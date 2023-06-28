@@ -1,4 +1,4 @@
-package com.googlesignin;
+package com.googlesignin.test;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
